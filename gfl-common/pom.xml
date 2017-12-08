@@ -137,6 +137,11 @@
             <artifactId>fluent-hc</artifactId>
         </dependency>
 
+        <!-- spring-redis -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+        </dependency>
     </dependencies>
 
 

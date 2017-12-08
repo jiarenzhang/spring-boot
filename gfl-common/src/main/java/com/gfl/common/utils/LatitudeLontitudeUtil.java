@@ -1,6 +1,8 @@
 package com.gfl.common.utils;
 
 
+import com.gfl.common.entity.PositionInfo;
+
 /**
  * 采用矩形算法的工具类
  * @author zjr
@@ -36,7 +38,7 @@ public class LatitudeLontitudeUtil {
         dlat = Math.toDegrees(dlat); //  弧度转换成角度  
   
        
-        left_top = new PositionInfo(lat + dlat, lng - dlng);  
+        left_top = new PositionInfo(lat + dlat, lng - dlng);
         right_top = new PositionInfo(lat + dlat, lng + dlng);  
         left_bottom = new PositionInfo(lat - dlat, lng - dlng);  
         right_bottom = new PositionInfo(lat - dlat, lng + dlng);  

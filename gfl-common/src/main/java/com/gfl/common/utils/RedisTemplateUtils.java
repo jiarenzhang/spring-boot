@@ -156,7 +156,7 @@ public class RedisTemplateUtils {
 	 * 
 	 * @param key
 	 *            键
-	 * @param by
+	 * @param delta
 	 *            要增加几(大于0)
 	 * @return
 	 */
@@ -172,7 +172,7 @@ public class RedisTemplateUtils {
 	 * 
 	 * @param key
 	 *            键
-	 * @param by
+	 *
 	 *            要减少几(小于0)
 	 * @return
 	 */
@@ -526,8 +526,7 @@ public class RedisTemplateUtils {
 	 *            键
 	 * @param value
 	 *            值
-	 * @param time
-	 *            时间(秒)
+
 	 * @return
 	 */
 	public boolean lSet(String key, Object value) {
@@ -570,8 +569,7 @@ public class RedisTemplateUtils {
 	 *            键
 	 * @param value
 	 *            值
-	 * @param time
-	 *            时间(秒)
+
 	 * @return
 	 */
 	public boolean lSet(String key, List<Object> value) {
