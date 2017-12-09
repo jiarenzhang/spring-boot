@@ -8,7 +8,6 @@ import java.util.List;
 
 /**
  * 打印订单详情
- * @author ljl
  *
  */
 public class PrintOrderVo implements Serializable{

@@ -7,9 +7,7 @@ import com.gfl.common.enums.ResultCode;
 
 import java.io.Serializable;
 
-/**
- * @author LIUKANGJIN
- */
+
 public class ResultMsg<T> implements Serializable {
 
     private int code;

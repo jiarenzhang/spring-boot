@@ -5,7 +5,6 @@ package com.gfl.common.enums;
  * 定义分成两层:
  * 1、可以显示给前端用户：code > 0
  * 2、不可显示给前端用户：code = -1(调试过程错误信息、用于内部调试使用)
- * @Author LIUKANGJIN
  */
 public class ResultCode extends ExtensibleEnum {
 
